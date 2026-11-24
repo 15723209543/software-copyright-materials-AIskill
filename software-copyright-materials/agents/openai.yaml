@@ -1,0 +1,6 @@
+interface:
+  display_name: "软件著作权申请资料生成"
+  short_description: "从完整源码包制作程序鉴别Word、软件说明书Word、官网填报MD，逐页核对代码格式"
+  default_prompt: "用 $software-copyright-materials 检查我上传的整个项目源码，根据真实功能生成程序鉴别Word、说明书Word和官网R11填报信息MD；逐页核查50行源码，说明书第4章留【截图提示】。"
+policy:
+  allow_implicit_invocation: true

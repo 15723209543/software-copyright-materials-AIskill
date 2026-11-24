@@ -1,0 +1,148 @@
+{
+  "_notice": "本文件只有字段和说明示例。项目特征必须由 AI 阅读本次用户真实源码后填写，不得当作完成的数据。",
+  "software_name": "【请根据实际项目与用户确定软件全称】",
+  "version": "【请核对实际项目版本】",
+  "overview": "【根据实际源码写用途、服务对象、真实能力和适用范围】",
+  "users": "【真实使用人群】",
+  "purpose": "【真实开发目的】",
+  "source_order": [],
+  "features": [
+    {
+      "name": "【功能名称】",
+      "description": "【有实际代码支持的功能描述】",
+      "evidence_paths": [
+        "【必须替换为inventory.json里的真实相对路径】"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "title": "2.1 使用需求",
+      "text": "【真实业务需求】"
+    }
+  ],
+  "architecture": [
+    {
+      "title": "2.2 技术架构与数据流",
+      "text": "【根据源码写前后端、接口和数据流】"
+    }
+  ],
+  "modules": [
+    {
+      "title": "3.1 项目模块",
+      "text": "【实际路径与用途】"
+    }
+  ],
+  "environment": [
+    "【开发与运行环境，版本号可证实才写】"
+  ],
+  "startup": [
+    "【项目里真实存在的启动方式】"
+  ],
+  "operations": [
+    {
+      "title": "【某项真实用户操作】",
+      "description": "【所在页面及作用】",
+      "steps": [
+        "【真实步骤一】",
+        "【真实步骤二】"
+      ],
+      "feedback": "【实际界面反馈与异常情况】",
+      "screenshot_prompt": "【打开哪一页面，截图哪些真实按钮/结果】",
+      "evidence_paths": [
+        "【替换为真实文件】"
+      ]
+    }
+  ],
+  "implementation": [
+    {
+      "title": "5.1 【前端/桌面/嵌入式模块】",
+      "text": "【只写软件实现，不做课程知识科普】"
+    }
+  ],
+  "interfaces": [
+    {
+      "title": "6.1 【接口与通信】",
+      "text": "【接口路径、数据对象、错误处理】"
+    }
+  ],
+  "storage": [
+    {
+      "title": "7.1 【数据组织】",
+      "text": "【实际存储模式】"
+    }
+  ],
+  "error_handling": [
+    {
+      "title": "8.1 【异常处理】",
+      "text": "【根据源码核对】"
+    }
+  ],
+  "testing": [
+    {
+      "title": "9.1 【已执行或可核对的测试】",
+      "text": "【没有真实测试结果就说明未验证】"
+    }
+  ],
+  "maintenance": [
+    {
+      "title": "10.1 【部署与维护】",
+      "text": "【与实际部署方式一致】"
+    }
+  ],
+  "technical_highlights": [
+    "【可证实的特色一】"
+  ],
+  "official": {
+    "short_name": null,
+    "holder_name": null,
+    "holder_id_type": null,
+    "holder_id_number": null,
+    "contact_name": null,
+    "contact_phone": null,
+    "contact_email": null,
+    "development_mode": null,
+    "completion_date": null,
+    "published": null,
+    "publication_date": null,
+    "right_acquisition": null,
+    "right_scope": null,
+    "dev_hardware": null,
+    "runtime_hardware": null,
+    "dev_os": null,
+    "runtime_os": null,
+    "dev_software": null,
+    "runtime_software": null,
+    "frameworks": null,
+    "database": null,
+    "main_functions": null,
+    "technical_features": null,
+    "applicant_name": null,
+    "applicant_phone": null,
+    "applicant_email": null,
+    "applicant_relation_to_holder": null,
+    "account_verified": null,
+    "applicant_type": null,
+    "agent_mode": null,
+    "agent_name": null,
+    "holder_entity_type": null,
+    "holder_country": null,
+    "holder_address": null,
+    "holder_region": null,
+    "holder_postcode": null,
+    "holder_phone": null,
+    "holder_email": null,
+    "copyright_holders": null,
+    "ownership_basis": null,
+    "employment_status": null,
+    "organization_approval": null,
+    "right_documents": null,
+    "publication_country": null,
+    "publication_city": null,
+    "publication_method": null,
+    "include_sensitive_in_md": false,
+    "contact_address": null,
+    "contact_postcode": null
+  },
+  "_user_input_note": "申报人、著作权人、联系人、日期等从用户当次调用消息填写并映射到 official；未提供用 null，禁止从示例和Git作者推断。"
+}

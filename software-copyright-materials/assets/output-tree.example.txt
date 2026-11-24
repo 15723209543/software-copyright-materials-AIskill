@@ -1,0 +1,11 @@
+实际提交内容（只交付三份）/
+├── <软件全称>_<版本>_程序鉴别材料.docx
+├── <软件全称>_<版本>_软件说明书.docx
+└── <软件全称>_<版本>_官网填报信息.md
+
+工作区（默认不交付）/
+├── inventory.json
+├── project_analysis.json
+├── _build_report.json
+├── qa_report.json
+└── page_preview/...
